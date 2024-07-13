@@ -1,0 +1,27 @@
+First Category: -
+AWS will provide a server without installing the SOFTWARE PACKAGES
+-> USER should install the required packages
+
+
+SECOND CATEGORY: -
+AWS will provide a server by installing the required SOFTWARE PACKAGES
+-> User will not take any responsibility for maintaining this Software
+
+
+
+1. Personal Laptop/PC -> 8GB or 16 GB RAM, Hard Disk 500 GB or 1 TB, HDD or SSD (type of Hard disk) - Intel I3 or I5 or I7 or I9
+Windows or MAC
+
+ACER - > 500 GB, GB, HDD, Gaming Laptop
+
+
+Use a Personal Laptop and connect to the Virtual Desktop/ server -> Configuration as per the Company requirement
+
+-> VMWARE for connecting virtual machines 
+-> Citrix is used for connecting Virtual Desktop
+-> All the softwares are installed on Virtual machines
+
+
+2. Company LAPTOP will be the Client machines
+You dont have to connect to any other machines
+You can start your work
