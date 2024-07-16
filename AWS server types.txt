@@ -20,6 +20,7 @@ Use a Personal Laptop and connect to the Virtual Desktop/ server -> Configuratio
 -> VMWARE for connecting virtual machines 
 -> Citrix is used for connecting Virtual Desktop
 -> All the softwares are installed on Virtual machines
+-> You can also use VPN
 
 
 2. Company LAPTOP will be the Client machines
