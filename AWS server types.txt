@@ -25,4 +25,4 @@ Use a Personal Laptop and connect to the Virtual Desktop/ server -> Configuratio
 
 2. Company LAPTOP will be the Client machines
 You dont have to connect to any other machines
-You can start your work
+You can start your work and get paid
