@@ -1,0 +1,15 @@
+-> Permissions on a File
+
+UserID, GROUPID, Other
+
+File123 -> rwx (user), rwx(Group), rwx(Others)
+
+-> chmod 770 File123
+-> chmod 774 File123
+
+2. Few commands -> 
+
+3, Basics Git/Github
+-> Different branches for different developers
+-> A copy of REpository is on the developers machine
+-> Project stage

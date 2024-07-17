@@ -1,0 +1,11 @@
+1. Uploading the Code from Laptop/PC to GITHUB
+
+-> Created a Git hub 
+-> Created a REPOSITORY on GITHUB
+-> We downloaded GIT from google and installed on Laptop/PC
+-> Login to the GITHUB/Authenticate the Login
+-> Initiated the Git
+-> Added the files 
+-> Committed the changes
+-> We established a link between your LAPTOP and GITHUB portal
+-> We pushed the changes

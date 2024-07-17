@@ -1,0 +1,21 @@
+Why to PUSH?
+Working on a PRoject -> save the code changes on REPO
+All changes are tracked, version control history is maintained
+
+REPO will have history
+-> Add the changes are committed to GITHUB
+
+
+SECOND APPROACH : -
+Why to PULL : -
+Wanted to copy the code from github to Laptop Working Directory
+
+-> git clone -> the GITHUB REPO will be cloned()
+-> git fetch -> Copies the code from GITHUB to Local REPOSITORY
+-> git merge -> Copies the code from Local REPOSITORY to Working Directory
+-> git pull -> The code from GITHUB REPO
+
+
+AUTHOR of the Code
+-> pushes the code to MAIN
+-> Contributers push the code to MASTER/BRANCH
