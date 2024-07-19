@@ -1,0 +1,54 @@
+    1  pwd
+    2  yum install git
+    3  pwd
+    4  ll
+    5  pwd
+    6  ll
+    7  mkdir project
+    8  ll
+    9  cd project
+   10  pwd
+   11  ll
+   12  ll -a
+   13  git clone https://github.com/pradeepV2/repo-for-main.git
+   14  pwd
+   15  ll
+   16  cd repo-for-main
+   17  pwd
+   18  ll
+   19  cat README.md
+   20  ll -a
+   21  pwd
+   22  ll -a
+   23  vi README.md
+   24  pwd
+   25  ll
+   26  cat README.md
+   27  git status
+   28  git add .
+   29  git status
+   30  git commit -m "LAST UPDATE"
+   31  git config --global user.name "pradeep"
+   32  git config --global user.email "yes1pradeep@gmail.com"
+   33  pwd
+   34  git status
+   35  git push
+   36  git remote set-url origin https://XXXXXXXXX@github.com/pradeepV2/repo-for-main
+   37  pwd
+   38  ll -a
+   39  git status
+   40  git push
+   41  pwd
+   42  ll
+   43  pwd
+   44  ll -a
+   45  vi Git-commands.txt
+   46  pwd
+   47  ll
+   48  cat Git-commands.txt
+   49  git status
+   50  git add .
+   51  git commit -m "LASTsetofchange"
+   52  git push
+   53  ll -a
+   54  history
