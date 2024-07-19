@@ -1,0 +1,215 @@
+VCS: VERSION CONTROL SYSTEM
+to store and track each version of code separately.
+
+GIT:
+Git is used to track the files.
+It will maintain multiple versions of the same file.
+It is platform-independent.
+It is free and open-source.
+They can handle larger projects efficiently.
+It is 3rd generation of VCS.
+it is written in c programming
+it came in the year 2005
+
+CVCS VS DVCS:
+
+CENTRALIZED VCS: we can store source code on single repo.
+ex: SVN
+
+DISTRIBUTED VCS: we can store source code on Multiple repos.
+ex: GIT
+
+ROLLBACK: Going back to the previous version
+ex: v2 -- > v1
+
+How to Rollback: By storing each version of code separately.
+----------------------------------------------------------------------------
+
+
+-> git init
+Creates a .git folder, which tracks all the changes of a folder
+
+-> git status 
+Check the status
+
+-> git add .
+Add the files
+
+-> git status 
+Check the status
+
+-> git commit -m "first"
+Commit the changes 
+
+-> git status 
+Check status
+
+-> git remote add origin https://github.com/pradeepV2/
+Add the GitHub link
+
+-> git status
+Check status
+
+-> git push -u origin master
+All files will be pushed to GITHUB
+
+---------------------------------- GIT CLONE ---------------------------------------------
+
+
+-> git clone URL_LINK
+REPO will be copied from GITHUB to your Local machine
+
+Step in to the PROJECT DIRECTORY and Make changes in your code and check status
+-> cd project-folder 
+-> git status
+-> git add .
+-> git commit -a -m "type the message"
+
+
+-> git config --list 
+Lists out all the configurations
+
+-> git status
+
+-> git log -5
+List out the last 5 commands and its operation
+
+-> git remote
+Lists out all the REMOTE associated with our project
+
+-> git remote -v
+Provides verbose details of remote
+
+-> git push origin master
+Pushes the code to GITHUB
+
+-> Make changes in the CODE on GITHUB
+
+-> git pull origin master
+Downloads the updated code to you LOCAL machine
+
+################################ PULL vs FETCH vs MERGE ############################################
+
+-> REMOTE REPO -> fetch -> LOCAL REPO -> merge -> WORKING DIRECTORY
+
+-> REMOTE REPO -> pull -> WORKING DIRECTORY
+
+
+#################################### FETCH vs MERGE ##############################################################
+CLONE the REPO
+-> git clone https://github.com/pradeepV2/Git-test
+
+Change Directory to project directory
+-> cd Git-test
+
+Check status
+-> git status
+
+Fetch it Local REPO
+-> git fetch
+
+Check status and compare 
+-> git status
+
+Apply the changes to Working DIRECTOTY
+-> git merge
+
+######################################### GIT PULL ######################################
+Make changes on GitHub Code again and pull the changes
+
+-> git pull
+
+
+
+#####################################################################################
+
+
+Why Master ?
+
+Why not Main  ? 
+
+-> We will create different branches
+
+########################################## CREATE - CLONE - PUSH to the MAIN branch #############################################
+
+1. Create a REPOSITORY on GitHub and upload few files to REPO on MAIN branch
+
+
+Clone the REPO
+-> git clone https://github.com/pradeepV2/gitting-main
+
+-> Edit the cloned files and extra files to the cloned folder 
+
+Add files to GIT (Local REPO)
+-> git add .
+
+Commit the changes 
+-> git commit -m  "Provide a comment"
+
+Push to Main branch 
+-> git push
+
+############################################ SWITCH to MAIN BRANCH ###################################################################################
+
+-> Create a REPO on GITHUB, that is MAIN branch
+
+-> git init (master branch)
+
+Create new files (master branch)
+-> cat>file123
+
+add files to Local REPO (master branch)
+-> git add .
+
+commit changes (master branch)
+-> git commit -m "Local changes"
+
+Switch to main branch (main branch)
+git branch -M main 
+
+Add to remote GitHub link (main branch)
+git remote add origin https://github.com/pradeepV2/gir-repo23.git
+
+We will not be able to PUSH to GITHUB, bcoz the GITHUB REPO and LOCAL REPO are not in SYNC
+-> git push -u origin main
+
+-> FOLLOW CLONE method 
+
+########################################### Copy from GITHUB to EC2 instance ##############################
+
+Switch to ROOT User
+-> sudo su
+
+Install GIT on EC2
+-> yum install git
+
+CONFIGURE USERNAME AND EMAIL on EC2
+-> git config --global user.name "pradeep"
+-> git config --global user.email "yes1pradeep@gmail.com"
+-> git config -- list
+
+Make a project Directory
+-> mkdir project1
+
+CLONE the REPOSITORY which you have uploaded from your LAPTOP
+-> git clone 
+
+Change to GITHUB DIRETORY
+-> cd project
+
+############################################## Add files on EC2 and push it back to GIT ###############################################################
+Make changes in the exiting code which is copied from GITHUB
+ADD few more files to the code
+
+Add the Code to local repo
+-> git add .
+
+Commit the code to local repo
+-> git commit -m 
+
+Push the code GITHUB
+-> git push
+
+PROVIDE AUTHENTICATION
+-> git remote set-url origin https://XXXX@github.com/pradeepV2/gir-repo23
+
