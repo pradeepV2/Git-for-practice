@@ -1,0 +1,20 @@
+1. Before you push the code GITHUB, you need to clone the GITHUB REPO.
+GITHUB REPO may have some extra files.
+
+2. We add and EDIT the files to the CLONED REPOSITORY on our LAPTOP/PC
+
+3. COmmit the changes and push it to GITHUB MAIN BRANCH
+
+4. Create an EC2 instance
+
+5. Install GITHUB
+
+6. Create a new folder with SUPER USER(ROOT) - sudo su 
+
+7. Clone the updated GITHUB REPO on my EC2
+
+8. WE can add files and edit files ---> FInal version
+
+9. Generate tokens
+
+10. Push the changes the MAIN branch of GITHUB REPO
